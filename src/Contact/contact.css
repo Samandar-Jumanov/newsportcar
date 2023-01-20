@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 200;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+.price
+{
+    width: 50%;
+    height: 70vh;
+    background-color: rgba(41, 37, 37, 0.288);
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+}
+.priceHeader
+{
+ margin-top: 30px;
+}
+.priceInput
+{
+    color: white;
+    margin-top: 30px;
+    outline: none;
+    appearance: none;
+   width: 30%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: none;
+   border-bottom: 2px solid blue ;
+   background-color: transparent;
+   transition: 0.5s ease-in-out;
+}
+.priceInput:active,
+.priceInput:focus
+{
+    width: 35%;
+    border-bottom: 2px solid green;
+}
+
+
+.priceSub
+{
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+@media (width<=1000px) {
+     .price
+     {
+     margin-left: 100px;
+     margin-top: 10px;
+     }  
+}
